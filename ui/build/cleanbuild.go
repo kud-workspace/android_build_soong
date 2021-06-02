@@ -103,7 +103,7 @@ func installClean(ctx Context, config Config, what int) {
 		hostOut("vts-core"),
 		productOut("*.img"),
 		productOut("*.zip"),
-		productOut("*.zip.md5sum"),
+		productOut("*.zip.sha256"),
 		productOut("android-info.txt"),
 		productOut("apex"),
 		productOut("kernel"),
